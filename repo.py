@@ -6,7 +6,8 @@ subprocess.call(["git", "config", "--global", "user.email", "jonnyopower@gmail.c
 subprocess.call(["git", "config", "--global", "user.name" ,"pleasewort"])
 subprocess.call(["git", "init"])
 subprocess.call(["git","pull","origin","main"])
-subprocess.call(["git","add","--all","./"])
+subprocess.call(["git","add","mb.html"])
+subprocess.call(["git","add","./*.png"])
 subprocess.call(["git","commit","-a","-m","all the stuff"])
 subprocess.call(["git","push","-f","origin","master:refs/heads/main"])
 
